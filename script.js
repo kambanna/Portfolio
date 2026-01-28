@@ -148,12 +148,12 @@ contactForm.addEventListener('submit', (e) => {
 });
 
 // Download resume button
-document.querySelectorAll('.btn-download').forEach(button => {
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        alert('Resume download would start here. In a real implementation, this would download your resume PDF.');
-    });
-});
+// document.querySelectorAll('.btn-download').forEach(button => {
+//     button.addEventListener('click', (e) => {
+//         e.preventDefault();
+//         alert('Resume download would start here. In a real implementation, this would download your resume PDF.');
+//     });
+// });
 
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
