@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kambanna | B.Tech Student & Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"></span>
+                <span>Kambanna</span>
+            </a>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="parallax-bg"></div>
+        <div class="hero-bg"></div>
+        <div class="floating-elements">
+            <div class="floating-element floating-1"></div>
+            <div class="floating-element floating-2"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text animate-on-scroll">
+                <h1>Kambanna</h1>
+                <p class="tagline typing-text">B.Tech Student & Java Developer</p>
+                <p>B.Tech undergraduate with expertise in Java, and web development technologies. Proven ability to work effectively in teams and contribute to the design and implementation of software solutions.</p>
+                
+                <div class="quick-facts">
+                    <div class="fact">
+                        <i class="fas fa-code"></i>
+                        <span>Java, HTML, CSS</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>B.Tech CSE Student</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-language"></i>
+                        <span>English, Telugu, Kannada</span>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kurnool, AP</span>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="btn" style="margin-right: 15px; margin-top: 20px;">
+                    <i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Contact Me
+                </a>
+                <a href="#" class="btn btn-download" style="margin-top: 20px;">
+                    <i class="fas fa-download" style="margin-right: 10px;"></i> Download Resume
+                </a>
+            </div>
+            <div class="hero-image animate-on-scroll">
+                <div class="avatar-container">
+                    <img src="assets/image.jpg.jpeg" alt="Kambanna" class="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate-on-scroll">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <p>I am a B.Tech Computer Science student currently pursuing my degree at G. Pullaiah College of Engineering and Technology, Kurnool. I have a strong academic record with 92.3% in my intermediate and 95% in my 10th standard.</p>
+                    <p>My passion lies in software development, particularly in Java and web technologies. I enjoy solving complex problems and working in collaborative environments where I can contribute to meaningful projects.</p>
+                    <p>I'm seeking a challenging role where I can utilize my skills and contribute to a dynamic team. My goal is to continuously learn and grow as a developer while delivering high-quality software solutions.</p>
+                </div>
+                <div class="education-timeline animate-on-scroll">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>B.Tech in Computer Science</h3>
+                            <p>G. Pullaiah College of Engineering and Technology, Kurnool</p>
+                            <p>2022 - Present (Pursuing)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Intermediate Education</h3>
+                            <p>Sri Venkateswara Junior College, Madakasira</p>
+                            <p>2020 - 2022 (92.3%)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>High School</h3>
+                            <p>ZPHS M. Rayapuram</p>
+                            <p>2019 - 2020 (95%)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate-on-scroll">Skills & Expertise</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-tag">Java</div>
+                        <div class="skill-tag">HTML</div>
+                        <div class="skill-tag">CSS</div>
+                        <div class="skill-tag">Data Structures</div>
+                        <div class="skill-tag">Algorithms</div>
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">Git</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-tag">Problem Solving</div>
+                        <div class="skill-tag">Project Management</div>
+                        <div class="skill-tag">Team Collaboration</div>
+                        <div class="skill-tag">Communication</div>
+                        <div class="skill-tag">Adaptability</div>
+                        <div class="skill-tag">Time Management</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="skill-items">
+                        <div class="skill-tag">Intellectual Property (IIT Madras)</div>
+                        <div class="skill-tag">Cryptography & Network Security (IIT Kharagpur)</div>
+                        <div class="skill-tag">Lingua Skills (Cambridge University)</div>
+                        <div class="skill-tag">Internet of Things (IIT Kharagpur)</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-briefcase"></i> Projects & Experience</h3>
+                    <div class="skill-items">
+                        <div class="skill-tag">Student Management System</div>
+                        <div class="skill-tag">Java Full Stack Developer Intern</div>
+                        <div class="skill-tag">Skill Dzire Internship</div>
+                        <div class="skill-tag">CRUD Operations</div>
+                        <div class="skill-tag">Database Design</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate-on-scroll">My Gallery</h2>
+                <p class="animate-on-scroll" style="color: var(--gray); margin-top: 15px;">Hobbies, Projects & Inspirations</p>
+            </div>
+            <div class="gallery-container">
+                <!-- Masonry gallery with hover zoom -->
+                <div class="gallery-item animate-on-scroll" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Java Programming">
+                    <div class="gallery-overlay">
+                        <h3>Java Development</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-index="1">
+                    <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student Management System">
+                    <div class="gallery-overlay">
+                        <h3>Student Management System</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-index="2">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Web Development">
+                    <div class="gallery-overlay">
+                        <h3>Web Development</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-index="3">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Database Design">
+                    <div class="gallery-overlay">
+                        <h3>Database Design</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-index="4">
+                    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team Collaboration">
+                    <div class="gallery-overlay">
+                        <h3>Team Collaboration</h3>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll" data-index="5">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Certifications">
+                    <div class="gallery-overlay">
+                        <h3>Certifications & Learning</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <div class="lightbox-nav">
+            <button id="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button id="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate-on-scroll">Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card animate-on-scroll">
+                        <h3><i class="fas fa-envelope"></i> Contact Information</h3>
+                        <p>Feel free to reach out for collaboration, opportunities, or just to say hello!</p>
+                        
+                        <div style="margin-top: 25px;">
+                            <p><strong>Email:</strong>kambannathippeswamy@gmail.com</p>
+                            <p><strong>Location:</strong> Kurnool, Andhra Pradesh</p>
+                            <p><strong>Languages:</strong> English, Telugu, Kannada</p>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/tkambanna-5b3537258/" class="social-link" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/kambanna" class="social-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card animate-on-scroll">
+                        <h3><i class="fas fa-download"></i> Download Resume</h3>
+                        <p>You can download my resume to learn more about my education, skills, and experience.</p>
+                        <a href="#" class="btn btn-download" style="margin-top: 20px;">
+                            <i class="fas fa-download" style="margin-right: 10px;"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-on-scroll">
+                    <h3 style="color: var(--primary); margin-bottom: 25px;">Send Me a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">
+                            <i class="fas fa-paper-plane" style="margin-right: 10px;"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon"></span>
+                        <span>Kambanna</span>
+                    </div>
+                    <p>B.Tech Computer Science student with expertise in Java and web development technologies. Passionate about creating efficient software solutions.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/tkambanna-5b3537258/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/kambanna" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Kambanna. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
